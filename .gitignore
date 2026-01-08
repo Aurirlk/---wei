@@ -1,0 +1,25 @@
+# 忽略后端的编译输出
+**/target/
+*.class
+
+# 忽略前端的依赖和打包输出
+**/node_modules/
+**/dist/
+
+# 忽略 IDE 配置文件
+.idea/
+.vscode/
+*.iml
+
+# 忽略 IDE 的配置文件 (可选，建议加上)
+.idea/
+.vscode/
+
+# 忽略 npm 的报错日志 (可选)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 忽略系统生成的文件
+.DS_Store
+Thumbs.db
